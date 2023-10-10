@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*margin: 0 auto;*/
+    height: auto;
+    background-image: url("../src/_3.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    /*
+    background-color: greenyellow;
+    border-style: double;
+    border-color: greenyellow;*/
+}
+
+
+.volverH1{
+    opacity: 0.5;
+    position: fixed;
+    width: 10%;
+    height: 8%;
+    top:90%;
+    left: 5%;
+}
+
+.volverH1:hover{
+    opacity: 1.0;
+}

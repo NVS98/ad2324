@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*margin: 0 auto;*/
+    background-position-y: center;
+    background-image: url("../src/black-simple.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*
+    background-color: greenyellow;
+    border-style: double;
+    border-color: greenyellow;*/
+}
+
+.llave{
+    position: fixed;
+    width: 15%;
+    height: 15%;
+    top:65%;
+    left: 30%;
+}
+
+.llave:hover{
+    opacity: 0.4;
+}
+
+.volver{
+    opacity: 0.5;
+    position: fixed;
+    width: 10%;
+    height: 8%;
+    top:90%;
+    left: 5%;
+}
+.volver:hover{
+    opacity: 1.0;
+}

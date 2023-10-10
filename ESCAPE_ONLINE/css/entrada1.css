@@ -1,0 +1,79 @@
+body{
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*margin: 0 auto;*/
+    height: auto;
+    background-image: url("../src/_1.webp");
+    background-repeat: no-repeat;
+    /*background-size: 100%;
+    background-color: greenyellow;
+    border-style: double;
+    border-color: greenyellow;*/
+}
+
+::-webkit-scrollbar {
+
+}
+
+.puertaH1{
+    background-color: transparent;
+    border: transparent;
+    position: fixed;
+    left: 36%;
+    top:45%;
+    /*border-style: solid;*/
+    width: 9%;
+    height: 35%;
+    /*border-color: chartreuse;*/
+    transform: skew(0deg, 2deg);
+}
+
+.puertaH2{
+    background-color: transparent;
+    border: transparent;
+    position: fixed;
+    left: 47%;
+    top:45%;
+    /*border-style: solid;*/
+    width: 6%;
+    height: 37%;
+    /*border-color: darkkhaki;*/
+    transform: perspective(400px) rotateY(160deg);
+}
+
+.escalera{
+    background-color: transparent;
+    border: transparent;
+    position: fixed;
+    left: 67%;
+    top:54%;
+    /*border-style: solid;*/
+    width: 12%;
+    height: 40%;
+    /*border-color: darkkhaki;*/
+    transform: perspective(100px) rotateY(150deg) skew(0deg, 10deg);
+}
+
+.cajaFuerte{
+    background-color: transparent;
+    border: transparent;
+    position: fixed;
+    opacity: 0.6;
+    left: 6%;
+    top: 76%;
+    width: 7%;
+    height: 7%;
+    background-image: url("../src/caja_fuerte.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*transform: perspective(100px) rotateY(150deg) skew(0deg, 10deg);*/
+
+}
+
+.puertaH1:hover,.puertaH2:hover,.escalera:hover,.prueba:hover{
+    background-color: grey;
+    opacity: 0.6;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
